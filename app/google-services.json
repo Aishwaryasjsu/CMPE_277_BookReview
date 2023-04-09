@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1096735967605",
+    "firebase_url": "https://book-review-bfc2f-default-rtdb.firebaseio.com",
+    "project_id": "book-review-bfc2f",
+    "storage_bucket": "book-review-bfc2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096735967605:android:5a5494137b5c0aa0a9eb3c",
+        "android_client_info": {
+          "package_name": "com.sjsu.bookReview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096735967605-paqji3i0vlf395v76pgukfpmmuh2dr04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoWONJbWommte_RPgNf4CnnG8E4Fk8UHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096735967605-paqji3i0vlf395v76pgukfpmmuh2dr04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
