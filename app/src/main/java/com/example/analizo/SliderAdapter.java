@@ -29,16 +29,16 @@ public class SliderAdapter extends PagerAdapter {
 
     //Array for sliding headings
     public String[] slide_headings={
-            "Analizo\nGo Beyond Expectations",
-            "Let the Numbers Count\nfor You ",
-            "Feel the Power of\nSentiments"
+            "BookReview\nGo Above and Beyound",
+            "Base your decisions on\nfacts and figures",
+            "Experience the Impact of\nEmotions"
     };
 
     //Array for sliding description
     public String[] slide_decsriptions={
             "We plan to make your experience convenient and enjoyable and double the pleasure for you.",
-            "We analyze your reviews on the movie and display your collective opinion to help people decide.",
-            "Life is pretty straight without sharing. Share your reviews on movies you watched and experience the results."
+            "By analyzing your book reviews and showcasing the collective opinion, we assist readers in gauging the overall sentiment.",
+            "Life can be more fulfilling when you share. By sharing your book reviews, you can enhance your reading experience and see the impact of your opinions."
     };
 
     //Array for sliding buttons

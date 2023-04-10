@@ -74,7 +74,7 @@
                             android:fontFamily="serif"
                             android:text=" "
                             android:textColor="#000000"
-                            android:textSize="21sp"
+                            android:textSize="18sp"
                             android:textStyle="bold" />
 
                         <TextView

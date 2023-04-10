@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E7EDDF"
+    android:background="#E4C4C4"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -24,10 +24,13 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
+            android:layout_marginBottom="70dp"
             android:layout_marginTop="30dp"
-            android:text=" Ⓐⓝⓐⓛⓘⓩⓞ"
-            android:textSize="35sp" />
+            android:text="BookReview📕📚"
+            android:fontFamily="arial"
+            android:textSize="45sp"
+            android:textColor="#C6121111"
+            android:textStyle="bold"/>
     </LinearLayout>
 
 </RelativeLayout>

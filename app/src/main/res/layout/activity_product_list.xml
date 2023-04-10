@@ -32,7 +32,7 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="2dp"
                     android:fontFamily="serif"
-                    android:text="Select Movie"
+                    android:text="Select Book"
                     android:textColor="#000000"
                     android:textSize="26sp"
                     android:textStyle="bold" />
@@ -76,7 +76,7 @@
                 android:paddingBottom="10dp">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/big_hero_card"
+                    android:id="@+id/system_design_card"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -89,17 +89,17 @@
                     app:cardElevation="8dp">
 
                     <ImageView
-                        android:id="@+id/big_hero"
+                        android:id="@+id/system_design"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:onClick="onClick"
-                        app:srcCompat="@drawable/big_hero"
+                        app:srcCompat="@drawable/system_design"
                         android:tag="1"/>
 
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/frozen_card"
+                    android:id="@+id/design_pattern_card"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -112,11 +112,11 @@
                     app:cardElevation="8dp">
 
                     <ImageView
-                        android:id="@+id/frozen"
+                        android:id="@+id/design_pattern"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:onClick="onClick"
-                        app:srcCompat="@drawable/frozen"
+                        app:srcCompat="@drawable/design_pattern"
                         android:tag="2"/>
 
                 </androidx.cardview.widget.CardView>
@@ -132,7 +132,7 @@
                 android:paddingBottom="10dp">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/tangled_card"
+                    android:id="@+id/doing_agile_right_card"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -145,17 +145,17 @@
                     app:cardElevation="8dp">
 
                     <ImageView
-                        android:id="@+id/tangled"
+                        android:id="@+id/doing_agile_right"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:onClick="onClick"
-                        app:srcCompat="@drawable/tangled"
+                        app:srcCompat="@drawable/doing_agile_right"
                         android:tag="3"/>
 
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/kung_fu_panda_card"
+                    android:id="@+id/revolution_card"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -168,11 +168,11 @@
                     app:cardElevation="8dp">
 
                     <ImageView
-                        android:id="@+id/kung_fu_panda"
+                        android:id="@+id/revolution"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:onClick="onClick"
-                        app:srcCompat="@drawable/kung_fu_panda"
+                        app:srcCompat="@drawable/revolution"
                         android:tag="4"/>
 
                 </androidx.cardview.widget.CardView>
@@ -188,7 +188,7 @@
                 android:paddingBottom="10dp">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/finding_nemo_card"
+                    android:id="@+id/art_of_public_speaking_card"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -201,17 +201,17 @@
                     app:cardElevation="8dp">
 
                     <ImageView
-                        android:id="@+id/finding_nemo"
+                        android:id="@+id/art_of_public_speaking"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:onClick="onClick"
-                        app:srcCompat="@drawable/finding_nemo"
+                        app:srcCompat="@drawable/art_of_public_speaking"
                         android:tag="5"/>
 
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/despicable_me_card"
+                    android:id="@+id/going_zero_card"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -224,11 +224,11 @@
                     app:cardElevation="8dp">
 
                     <ImageView
-                        android:id="@+id/despicable_me"
+                        android:id="@+id/going_zero"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:onClick="onClick"
-                        app:srcCompat="@drawable/despicable_me"
+                        app:srcCompat="@drawable/going_zero"
                         android:tag="6"/>
 
                 </androidx.cardview.widget.CardView>

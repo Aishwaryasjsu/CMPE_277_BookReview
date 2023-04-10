@@ -4,6 +4,6 @@
         android:centerX="43%"
         android:startColor="#FFffffff"
         android:centerColor="#FFffffff"
-        android:endColor="#FFFFEDEB"
+        android:endColor="#F64835"
         android:angle="90"/>
 </shape>
