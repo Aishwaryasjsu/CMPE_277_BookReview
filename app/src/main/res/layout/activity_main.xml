@@ -10,7 +10,7 @@
     <LinearLayout
         android:id="@+id/linear"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="361dp"
         android:layout_centerInParent="true"
         android:orientation="vertical">
 
@@ -24,13 +24,14 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="70dp"
             android:layout_marginTop="30dp"
-            android:text="BookReview📕📚"
+            android:layout_marginBottom="70dp"
             android:fontFamily="arial"
-            android:textSize="45sp"
+            android:text="BookReview📕📚"
             android:textColor="#C6121111"
-            android:textStyle="bold"/>
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
 </RelativeLayout>

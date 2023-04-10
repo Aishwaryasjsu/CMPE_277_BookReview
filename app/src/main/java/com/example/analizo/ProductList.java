@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.animation.AlphaAnimation;
 
 import androidx.appcompat.app.AppCompatActivity;
+import com.example.analizo.AddProductToDatabase;
 
 public class ProductList extends AppCompatActivity {
 
@@ -55,9 +56,8 @@ public class ProductList extends AppCompatActivity {
 //        startActivity(intent);
 //    }
 
-
-//    public void addOnClick(View view) {
-//        Intent intent = new Intent(ProductList.this, AddProductToDatabase.class);
-//        startActivity(intent);
-//    }
+    public void addOnClick(View view) {
+        Intent intent = new Intent(ProductList.this, AddProductToDatabase.class);
+        startActivity(intent);
+    }
 }

@@ -3,6 +3,7 @@ package com.example.analizo;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,7 +11,6 @@ public class MainActivity extends AppCompatActivity {
 
     //Time for spash screen (in milliseconds)
     private static int SPLASH_TIME=3000;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
