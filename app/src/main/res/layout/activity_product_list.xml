@@ -96,6 +96,13 @@
                         app:srcCompat="@drawable/system_design"
                         android:tag="1"/>
 
+                    <ImageView
+                        android:id="@+id/system_design_fav"
+                        android:onClick="onClickFav"
+                        android:layout_width="37dp"
+                        android:layout_height="34dp"
+                        app:srcCompat="@drawable/ic_favorite_foreground" />
+
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -118,6 +125,13 @@
                         android:onClick="onClick"
                         app:srcCompat="@drawable/design_pattern"
                         android:tag="2"/>
+
+                    <ImageView
+                        android:id="@+id/design_pattern_fav"
+                        android:layout_width="37dp"
+                        android:layout_height="34dp"
+                        android:onClick="onClickFav"
+                        app:srcCompat="@drawable/ic_favorite_foreground" />
 
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
@@ -152,6 +166,13 @@
                         app:srcCompat="@drawable/doing_agile_right"
                         android:tag="3"/>
 
+                    <ImageView
+                        android:id="@+id/doing_agile_right_fav"
+                        android:layout_width="37dp"
+                        android:layout_height="34dp"
+                        android:onClick="onClickFav"
+                        app:srcCompat="@drawable/ic_favorite_foreground" />
+
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -172,8 +193,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:onClick="onClick"
-                        app:srcCompat="@drawable/revolution"
-                        android:tag="4"/>
+                        android:tag="4"
+                        app:srcCompat="@drawable/revolution" />
+
+                    <ImageView
+                        android:id="@+id/revolution_fav"
+                        android:onClick="onClickFav"
+                        android:layout_width="37dp"
+                        android:layout_height="34dp"
+                        app:srcCompat="@drawable/ic_favorite_foreground" />
 
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
@@ -208,6 +236,13 @@
                         app:srcCompat="@drawable/art_of_public_speaking"
                         android:tag="5"/>
 
+                    <ImageView
+                        android:id="@+id/art_of_public_speaking_fav"
+                        android:layout_width="37dp"
+                        android:layout_height="34dp"
+                        android:onClick="onClickFav"
+                        app:srcCompat="@drawable/ic_favorite_foreground" />
+
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -231,61 +266,12 @@
                         app:srcCompat="@drawable/going_zero"
                         android:tag="6"/>
 
-                </androidx.cardview.widget.CardView>
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/linear4"
-                android:layout_width="match_parent"
-                android:layout_height="245dp"
-                android:layout_below="@id/linear3"
-                android:orientation="horizontal"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp">
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/shrek_card"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_weight="1"
-                    app:cardBackgroundColor="#FFFFFF"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="8dp">
-
                     <ImageView
-                        android:id="@+id/shrek"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:onClick="onClick"
-                        app:srcCompat="@drawable/shrek"
-                        android:tag="7"/>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/the_incredibles_card"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="20dp"
-                    android:layout_weight="1"
-                    app:cardBackgroundColor="#FFFFFF"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="8dp">
-
-                    <ImageView
-                        android:id="@+id/the_incredibles"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:onClick="onClick"
-                        app:srcCompat="@drawable/the_incredibles"
-                        android:tag="8"/>
+                        android:id="@+id/going_zero_fav"
+                        android:layout_width="37dp"
+                        android:layout_height="34dp"
+                        android:onClick="onClickFav"
+                        app:srcCompat="@drawable/ic_favorite_foreground" />
 
                 </androidx.cardview.widget.CardView>
             </LinearLayout>

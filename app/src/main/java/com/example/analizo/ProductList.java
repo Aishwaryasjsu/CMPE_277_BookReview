@@ -1,9 +1,13 @@
 package com.example.analizo;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.analizo.AddProductToDatabase;
@@ -12,11 +16,26 @@ public class ProductList extends AppCompatActivity {
 
     //Animation for image buttons
     private AlphaAnimation buttonClick = new AlphaAnimation(1F, 0.8F);
+    private String[] fav_book_ids = {"system_design_fav", "design_pattern_fav", "doing_agile_right_fav",
+    "revolution_fav", "art_of_public_speaking_fav", "going_zero_fav"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_product_list);
+
+        SharedPreferences favs = getSharedPreferences("favs", Context.MODE_PRIVATE);
+        for (String fav_id:fav_book_ids) {
+            Boolean isFav = favs.getBoolean(fav_id, false);
+            int resourceId = this.getResources().getIdentifier(fav_id, "id", this.getPackageName());
+            Log.i("resourceId", String.valueOf(resourceId));
+            ImageView favBtn= (ImageView) findViewById(resourceId);
+            if (isFav){
+                favBtn.setImageResource(R.drawable.ic_favorite_red_foreground);
+            }else{
+                favBtn.setImageResource(R.drawable.ic_favorite_foreground);
+            }
+        }
     }
 
     //Open the corresponding movie detail and reviews
@@ -38,6 +57,26 @@ public class ProductList extends AppCompatActivity {
 //        intent.putExtra("tag", tag);
         intent.putExtra("movieId", movieId);
         startActivity(intent);
+    }
+
+    public void onClickFav(View view) {
+        view.startAnimation(buttonClick);
+        int id=view.getId();
+
+        SharedPreferences favs = getSharedPreferences("favs", Context.MODE_PRIVATE);
+        String fav_id=view.getResources().getResourceEntryName(id);
+        Boolean isFav = favs.getBoolean(fav_id, false);
+        SharedPreferences.Editor editor = favs.edit();
+        ImageView favBtn= (ImageView) findViewById(id);
+        if (isFav){
+            favBtn.setImageResource(R.drawable.ic_favorite_foreground);
+            editor.putBoolean(fav_id, false);
+            editor.apply();
+        }else{
+            favBtn.setImageResource(R.drawable.ic_favorite_red_foreground);
+            editor.putBoolean(fav_id, true);
+            editor.apply();
+        }
     }
 
 //    public void onClick2(View view) {
