@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.analizo">
+    package="com.sjsu.bookreview">
 
     <supports-screens
         android:anyDensity="true"
@@ -18,27 +18,28 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".ProductList"
+        <activity android:name="com.sjsu.bookreview.ProductList"
                   android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".ProductDetail"
+        <activity android:name="com.sjsu.bookreview.ProductDetail"
                   android:windowSoftInputMode="stateHidden|adjustResize"
                   android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".ProductReviews"
+        <activity android:name="com.sjsu.bookreview.ProductReviews"
                   android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".NoInternet"
+        <activity android:name="com.sjsu.bookreview.NoInternet"
             android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".AppIntro"
+        <activity android:name="com.sjsu.bookreview.AppIntro"
                   android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".AddProductToDatabase"
+        <activity android:name="com.sjsu.bookreview.AddProductToDatabase"
             android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".MainActivity"
-                  android:screenOrientation="portrait">>
+        <activity android:name="com.sjsu.bookreview.MainActivity"
+                  android:screenOrientation="portrait"
+            android:exported="true">>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

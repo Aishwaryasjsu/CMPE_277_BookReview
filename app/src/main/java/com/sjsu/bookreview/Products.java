@@ -1,4 +1,4 @@
-package com.example.analizo;
+package com.sjsu.bookreview;
 
 public class Products {
     //Attributes for each product
